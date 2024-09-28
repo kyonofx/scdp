@@ -2,6 +2,7 @@
 
 `scdp` is a codebase for training charge density prediction models described in the [paper](https://openreview.net/forum?id=b7REKaNUTv):
 
+```
 @inproceedings{
 fu2024recipe,
 title={A Recipe for Charge Density Prediction},
@@ -10,6 +11,7 @@ booktitle={The Thirty-eighth Annual Conference on Neural Information Processing 
 year={2024},
 url={https://openreview.net/forum?id=b7REKaNUTv}
 }
+```
 
 please contact [Xiang Fu](xiangfu@meta.com) or open an issue if you have any questions.
 
