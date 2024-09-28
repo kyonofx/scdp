@@ -31,13 +31,13 @@ pip install -e ./
 
 download the QM9 charge density dataset to `DATAPATH` from: https://data.dtu.dk/articles/dataset/QM9_Charge_Densities_and_Energies_Calculated_with_VASP/16794500. `DATAPATH` should contain all the `.tar` files.
 
-preproces data to Lmdbs (no virtual nodes):
+preprocess data to Lmdbs (no virtual nodes):
 
 ```
 python scdp/scripts/preprocess.py --disable_pbc --data_path DATAPATH --out_path LMDBPATH --tar --device cpu --atom_cutoff 6 --vnode_method none
 ```
 
-preproces data to Lmdbs (with bond midpoint virtual nodes):
+or preprocess data with bond midpoint virtual nodes:
 
 ```
 python scdp/scripts/preprocess.py --disable_pbc --data_path DATAPATH --out_path LMDBPATH --tar --device cpu --atom_cutoff 6 --vnode_method bond 
@@ -58,8 +58,7 @@ python scdp/scripts/train.py
 by default we train an eSCN model with `K=8, L=6, beta=2.0` for 500000 steps over 4 GPUs using DDP. To finetune the same model with trainable scaling factors, run:
 
 ```
-CUDA_VISIBLE_DEVICES=4,5,6,7 python scdp/scripts/train.py \
-train=finetune model.expo_trainable=True
+python scdp/scripts/train.py train=finetune model.expo_trainable=True
 ```
 
 ### inference
