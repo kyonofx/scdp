@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*.egg-info
+ignored/
+*.npy
+.editorconfig
+.DS_Store
