@@ -1,0 +1,18 @@
+_target_: scdp.model.module.ChgLightningModule
+
+criterion: mae
+vnode_elem: 8
+pbc: false
+dft_basis_set: 'def2-qzvppd'
+dft_wt_aug: true
+concat_basis: false
+beta: 2.0
+lmax_restriction: true
+lmax_relax: 0
+uncontracted: true
+orb_cutoff: 5.0
+expo_trainable: false
+magnitude_weighting: false
+
+defaults:
+  - model: escn

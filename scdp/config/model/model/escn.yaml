@@ -1,0 +1,9 @@
+  _target_: scdp.model.scn.eSCN
+  num_layers: 8
+  lmax_list: [6]
+  mmax_list: [2]
+  cutoff: 6.
+  sphere_channels: 128
+  hidden_channels: 256
+  edge_channels: 128
+  num_sphere_samples: 128
