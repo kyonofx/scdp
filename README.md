@@ -1,4 +1,4 @@
-# scalable charge density prediction [NeurIPS 2024]
+# scalable charge density prediction
 
 `scdp` is a codebase for training charge density prediction models described in the [paper](https://openreview.net/forum?id=b7REKaNUTv):
 
