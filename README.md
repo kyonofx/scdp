@@ -13,7 +13,7 @@ url={https://openreview.net/forum?id=b7REKaNUTv}
 }
 ```
 
-please contact [Xiang Fu](xiangfu@meta.com) or open an issue if you have any questions.
+please contact [Xiang Fu](mailto:xiangfu@meta.com) or open an issue if you have any questions.
 
 ### install dependencies
 
